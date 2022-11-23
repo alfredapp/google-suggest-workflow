@@ -8,7 +8,7 @@ Get in-line suggestions to your Google searches.
 
 Use the keyword (default "g") to get in-line suggestions from Google's search results. Press Return to launch the relevant search results page in your default browser.
 
-![Google in-line results](google-search-results.png)
+![Google in-line results](/images/google-search-results.png)
 
 ## Configuration
 
