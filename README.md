@@ -1,15 +1,11 @@
-# Google Suggest
+# <img src='Workflow/icon.png' width='45' align='center' alt='icon'> Google Suggest Alfred Workflow
 
-Get in-line suggestions to your Google searches.
+Get in-line Google search suggestions
 
 <a href='https://github.com/alfredapp/google-suggest/releases/latest/download/Google.Suggest.alfredworkflow'>⤓ Download Workflow</a>
 
 ## Usage
 
-Use the keyword (default "g") to get in-line suggestions from Google's search results. Press Return to launch the relevant search results page in your default browser.
+Get in-line suggestions from Google’s search results via the Search Keyword (default: `g`). Press <kbd>⏎</kbd> to open the search results page in the default web browser.
 
-![Google in-line results](/images/google-search-results.png)
-
-## Configuration
-
-The workflow uses your general Alfred location to return the most relevant Amazon store. Go to Alfred's General preferences to set your location.
+![Google in-line results](Workflow/images/about/google-search-results.png)

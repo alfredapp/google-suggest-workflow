@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.alfredapp.googlesuggest</string>
+	<string>com.alfredapp.vitor.googlesuggest</string>
 	<key>connections</key>
 	<dict>
 		<key>63F60794-BB56-4415-9372-BAF974C3A7E1</key>
@@ -33,21 +33,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>searcher</key>
-				<integer>1635215215</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
-			<key>uid</key>
-			<string>B8FFA3AB-AD7D-4316-A84F-5958A671D4FF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -61,7 +46,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>{var:workflow_keyword}</string>
+				<string>{var:search_keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -136,25 +121,34 @@ function run(argv) {
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>searcher</key>
+				<integer>1635215215</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemwebsearch</string>
+			<key>uid</key>
+			<string>B8FFA3AB-AD7D-4316-A84F-5958A671D4FF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string># Google Suggest
+	<string>## Usage
 
-Get in-line suggestions to your Google searches.
+Get in-line suggestions from Google’s search results via the Search Keyword (default: `g`). Press &lt;kbd&gt;↩&lt;/kbd&gt; to open the search results page in the default web browser.
 
-## Usage
-
-Use the keyword (default "g") to get in-line suggestions from Google's search results. Press Return to launch the relevant search results page in your default browser.
-
-![Google in-line results](google-search-results.png)
-
-## Configuration
-
-The workflow uses your general Alfred location to return the most relevant Amazon store. Go to Alfred's General preferences to set your location.</string>
+![Google in-line results](images/about/google-search-results.png)</string>
 	<key>uidata</key>
 	<dict>
 		<key>63F60794-BB56-4415-9372-BAF974C3A7E1</key>
 		<dict>
+			<key>note</key>
+			<string>Set your keyword via the "Configure workflow..." button.</string>
 			<key>xpos</key>
 			<real>45</real>
 			<key>ypos</key>
@@ -178,23 +172,23 @@ The workflow uses your general Alfred location to return the most relevant Amazo
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
-				<true/>
+				<false/>
 				<key>trim</key>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Keyword used to launch the workflow</string>
+			<string></string>
 			<key>label</key>
-			<string>Keyword</string>
+			<string>Search Keyword</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>workflow_keyword</string>
+			<string>search_keyword</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2022.1</string>
+	<string>2022.2</string>
 	<key>webaddress</key>
-	<string>https://www.alfredapp.com/</string>
+	<string>https://github.com/alfredapp/google-suggest-workflow/</string>
 </dict>
 </plist>
