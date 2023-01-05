@@ -2,7 +2,7 @@
 
 Get in-line Google search suggestions
 
-<a href='https://github.com/alfredapp/google-suggest/releases/latest/download/Google.Suggest.alfredworkflow'>⤓ Download Workflow</a>
+[⤓ Install From the Alfred Gallery](https://alfred.app/workflows/alfredapp/google-suggest/)
 
 ## Usage
 
