@@ -33,21 +33,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>searcher</key>
-				<integer>1635215215</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
-			<key>uid</key>
-			<string>B8FFA3AB-AD7D-4316-A84F-5958A671D4FF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -136,11 +121,26 @@ function run(argv) {
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>searcher</key>
+				<integer>1635215215</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemwebsearch</string>
+			<key>uid</key>
+			<string>B8FFA3AB-AD7D-4316-A84F-5958A671D4FF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>## Usage
 
-Get in-line suggestions from Google’s search results via the `g` keyword ([configurable](https://www.alfredapp.com/help/workflows/user-configuration/)). Press &lt;kbd&gt;↩&lt;/kbd&gt; to open the search results page in the default web browser.
+Get in-line suggestions from Google’s search results via the `g` keyword. Press &lt;kbd&gt;↩&lt;/kbd&gt; to open the search results page in the default web browser.
 
 ![Google in-line results](images/about/google-search-results.png)</string>
 	<key>uidata</key>
