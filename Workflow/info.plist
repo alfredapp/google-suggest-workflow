@@ -224,7 +224,7 @@ Get in-line suggestions from Google’s search results via the `g` keyword. Pres
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2024.2</string>
+	<string>2025.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/alfredapp/google-suggest-workflow/</string>
 </dict>
